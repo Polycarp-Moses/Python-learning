@@ -11,6 +11,11 @@ name = "Kamau"
 language = "Python"
 print("My name is", name)
 print(name, "is learning", language)
-print(name, "wants to become a", language, "expert")
+print(name, "wants to become a", language, "expert\n")
 
 # You can then change the variables however you want 
+name = "Polycarp"
+language = "Javascript"
+print("My name is", name)
+print(name, "is learning", language)
+print(name, "wants to become a", language, "expert")
