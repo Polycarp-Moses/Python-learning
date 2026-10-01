@@ -1,3 +1,3 @@
-name = input("Enter Your Name:")
+name = input("Enter your name:")
 country = "Kenya"
-print(name, "comes from", country) 
+print("You are", name, "living in", country) 
