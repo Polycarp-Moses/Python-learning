@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+print("Hello,", name)
+city = input("Enter your city: ")
+hobby = input("Enter your hobby: ")
+print(name, "lives in", city, "and loves", hobby)
+language = input("Enter your favourite programming language: ")
+print("Your favourite language is " + language + "\nGood choice!" )
