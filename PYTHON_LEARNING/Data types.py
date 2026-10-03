@@ -1,0 +1,11 @@
+a = 50 #int - whole numbers without decimals
+b = "name" #string- text or sequence of characters, written inside single or double quotes
+c = "123" #quotation marks means string
+d = 3.15 #float - numbers with decimals
+f = True #boolean -can either be Trur or False - used to handle logic and decision-making, They are case sensitive
+g = False #bool
+h = None #means "no value", "nothing" or "unknown" - it is used to show the absence of any data
+i = "" #blank string # blank is a string with no characters inside, it is not the same as None!
+j = " " #White space - it is a string value with 1 or more spaces, it is not the same as None!
+
+upper()
