@@ -7,4 +7,4 @@ print(f"My name is {name}, I am {age} years old, and student status is {student}
 
 print (f"2 + 3 = {2+3}") #you can also add expressions
 
-print(f"{{This is me}}")
+print(f"{{This is me}}") #if you want to print the curry brackets
