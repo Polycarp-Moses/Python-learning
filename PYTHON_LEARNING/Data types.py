@@ -7,5 +7,3 @@ g = False #bool
 h = None #means "no value", "nothing" or "unknown" - it is used to show the absence of any data
 i = "" #blank string # blank is a string with no characters inside, it is not the same as None!
 j = " " #White space - it is a string value with 1 or more spaces, it is not the same as None!
-
-upper()
