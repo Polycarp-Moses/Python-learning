@@ -9,5 +9,5 @@ print(len (text))
 
 print(text.upper()) #converts string to uppercase
 
-print(number.bit_length())
+print(number.bit_length()) #method of <class int>, returns length of a nummber in binary/the number of bits required to store a value
 
