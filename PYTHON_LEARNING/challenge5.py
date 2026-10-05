@@ -1,0 +1,2 @@
+string = "968-Maria, ( D@t@ Engineer ) ;; 27y ..".replace("968-", "name: ").lower().replace(",", " | ").replace("(", "role: ").replace("@","a").replace(")","").replace(";;","| age:").replace("27y","27").replace("  "," ").strip("..")
+print(string)
