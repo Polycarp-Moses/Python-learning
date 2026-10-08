@@ -1,5 +1,6 @@
 # Measure distance
 #print(2-8) #the result here will be a negative number
+print(2-8)
 print(abs(2-8)) #abs () function will return the absolute (non-negative) value of a number - used for measuring distance or size, regardless of direction
 
 import math

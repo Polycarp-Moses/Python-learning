@@ -18,7 +18,7 @@ print(x*4)
 x = 3.14
 print(int(x))
 
-#converting imt into float
+#converting int into float
 x = 3
 print(float(x))
 
