@@ -21,7 +21,7 @@ elif email.count("@") != 1: # count () method counts how often a specific value 
 elif not email.endswith(('.com', ',org', '.net')):
     print("Email must end with .com, .org or .net")
 #Email must not be longer than 254 characters
-elif len(email) > 254: #len() returns the numbe of characters in a string
+elif len(email) > 254: #len() returns the number of characters in a string
     print("Email must not be longer than 254 characters")
 #Email must start and end with a letter ot digit
 elif not(email [0].isalnum() and email [-1].isalnum()): #isalnum()-checks if the string contains only letters and digits
