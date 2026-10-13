@@ -17,7 +17,7 @@
 scores = [80, 50, 60, 75]
 total = 0
 for score in scores:
-    total += score #total = total + scores
+    total += score #total = total + score
     print("Current Total:", total)
 print("Final Total:", total)
 
