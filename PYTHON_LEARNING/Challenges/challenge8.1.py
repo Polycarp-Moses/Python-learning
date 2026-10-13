@@ -7,7 +7,7 @@
 #Email must start and end with a letter ot digit
 
 
-email = "mosekamau007@gmail.com"
+email = "mosekamau007@gmailcom"
 email = email.strip() #() strip removes leading and trailing and whitespaces from a string
 if email == "":
     print("Email cannot be empty")
@@ -23,7 +23,7 @@ elif not email.endswith(('.com', ',org', '.net')):
 #Email must not be longer than 254 characters
 elif len(email) > 254: #len() returns the number of characters in a string
     print("Email must not be longer than 254 characters")
-#Email must start and end with a letter ot digit
+#Email must start and end with a letter or digit
 elif not(email [0].isalnum() and email [-1].isalnum()): #isalnum()-checks if the string contains only letters and digits
     print("Email must start and end with a letter or digit")
 else:

@@ -3,7 +3,7 @@
 # i.e: if condition 1: do A else: do B
 #syntax:
 
-score = 50
+score = 90
 if score >= 90:
     print("A")
 else:
