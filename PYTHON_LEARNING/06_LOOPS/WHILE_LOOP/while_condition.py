@@ -1,4 +1,8 @@
-#Syntax:
+#We can divide the while loop design into two categories: a) While condition b) While True
+
+#a) While Condition:
+#You define the condition and the loop will keep going until the condion is false
+
 i = 1 #initialization-defines the initial value of the loop variable
 while i < 4: #condition
     print(i)
