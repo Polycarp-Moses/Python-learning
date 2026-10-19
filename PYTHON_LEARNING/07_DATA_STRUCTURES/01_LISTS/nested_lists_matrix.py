@@ -1,5 +1,6 @@
 #Nested list (Matrix)
 #List inside another list
+# Usefull in creating data structures like tables where you have rows and columns
 
 matrix = [["a", "b", "c"], 
           ["d", "e", "f"]]

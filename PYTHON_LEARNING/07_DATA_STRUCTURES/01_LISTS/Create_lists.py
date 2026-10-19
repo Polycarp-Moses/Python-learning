@@ -4,6 +4,9 @@ empty = []
 print(empty)
 print(type(empty))
 
+empty = list() #another way of creating an empty list
+print(empty)
+
 print()
 
 #Create list by adding items manually
@@ -34,6 +37,7 @@ print(empty)
 
 print()
 
+#Create by converting - if you have the data already but in a different data type or an object, you can convert it into a list. You will get the same data but in different object
 #Create a new list from already existing data using list () function
 letters = list("Python")
 print(letters)
