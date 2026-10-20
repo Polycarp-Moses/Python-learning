@@ -34,7 +34,7 @@ print(matrix)
 
 #Get the last row of the matrix
 print(matrix[2]) 
-print(matrix[-1]) #negative index- good practice to use because you will always mostly have multiple 
+print(matrix[-1]) #negative index- good practice to use because you will always mostly have multiple rows
 
 #Get the last item of the last row
 print(matrix[-1][-1])
@@ -70,7 +70,7 @@ print(matrix[:2]) #We excluded the first index zero because it is default. Then 
 
 print()
 
-#Get the last tow rows (lists) from a list
+#Get the last two rows (lists) from a list
 print(matrix[1:])
 
 print()
