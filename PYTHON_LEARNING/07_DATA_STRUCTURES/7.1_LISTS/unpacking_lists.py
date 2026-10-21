@@ -11,6 +11,7 @@ person =["Maria", 29, "Data engineer", "Spain"]
 #Unpacking utilizes list of variables, separated by commas
 #Order of variable names must match the order of the list values
 #Unpacking is clean, easy, and makes code simple to extend 
+person = ["Maria", 29, "Data engineer", "Spain"]
 name, age, role, country = person
 
 print(name)
