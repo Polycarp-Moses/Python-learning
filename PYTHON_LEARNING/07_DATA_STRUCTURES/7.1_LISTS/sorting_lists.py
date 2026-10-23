@@ -1,5 +1,5 @@
-#SORTING LISTS
-#Involves organizing and rearranging your data in a list
+# #SORTING LISTS
+# #Involves organizing and rearranging your data in a list
 
 # sort()-method that sorts from smallest to biggest/ in ascending order
 letters = ['c', 'a', 'b'] #sort this list in ascending order

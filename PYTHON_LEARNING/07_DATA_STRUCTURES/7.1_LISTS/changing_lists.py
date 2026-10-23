@@ -1,5 +1,5 @@
-#CHANGING YOUR LISTS
-# ADD ITEMS
+# #CHANGING YOUR LISTS
+# # ADD ITEMS
 
 # Easiest way is just appending/adding the new value at the end of the list. To do this use the method . append(value)
 letters = ['a', 'b', 'c']
@@ -7,8 +7,11 @@ letters.append('x') #Add 'x' to the end of the list
 letters.append('y') #Add 'y' to the end of the list
 print(letters)
 
-print()
+numbers = [2,3,6,7]
+numbers.append(8)
+print(numbers)
 
+print()
 #What if you want to insert a value at a specific position? Use the .insert method(index, value)
 letters = ['a', 'b', 'c']
 letters.insert(0, 'f') #insert 'f' at the start of the list
@@ -49,8 +52,8 @@ print(matrix)
 
 print()
 
-#REMOVE ITEMS
-#clean up your list by removing duplicate data, old data or bad data that could corrupt your list
+# #REMOVE ITEMS
+# #clean up your list by removing duplicate data, old data or bad data that could corrupt your list
 #Remove everything
 letters = ['a', 'b', 'c']
 letters.clear()
