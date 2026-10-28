@@ -53,3 +53,8 @@ students = [['Maria', 85],
             ['Kumar', 90],
             ['Max', 60]]
 print(list(filter(lambda row: row[0].startswith('M'), students)))
+
+#Task: Keeps the scores of 60 or more
+scores = [45, 80, 62, 91]
+print(list(filter(lambda score: score >= 60, scores)))
+print(list(map(lambda score: score + 5, scores)))
