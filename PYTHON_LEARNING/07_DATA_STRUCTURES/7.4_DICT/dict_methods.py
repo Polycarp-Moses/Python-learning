@@ -22,7 +22,7 @@ print('name' not in user)
 
 #View Objects - these objects give you a live view of the dictionary's keys, values, or key value pairs - they give you insights about the structure of your dict
 
-# 1. keys() - returns all trhe KEYS in you dictionary
+# 1. keys() - returns all true KEYS in you dictionary
 user = {'id': 1, 'age': 34, 'city': 'Nairobi'}
 print(user.keys())
 
