@@ -1,6 +1,7 @@
 #LIST COMPREHENSIONS- a shortcut for a for loop that builds a new list
 #You can combine data transformation, loops and data filtering
 #Syntax: 1. What goes into the new list? 2. Where do the items come from? (for item in items) 3. Do i need a check?(if...)
+
 #Task: Normalize the domains into standard format
 domains = ['www.google.com', 'openai.com', 'localhost', 'www.DATAWITHBARAA.COM']
 cleaned = [

@@ -8,7 +8,7 @@ a = {10, 20, 30, 40}
 a.add(50)
 print(a)
 
-# How about adding multiple values in a set?
+# How about adding multiple values to a set?
 # Use the method update() - which merges another group of values (Iterable) into the set
 
 a = {10, 20, 30, 40}

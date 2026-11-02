@@ -7,7 +7,7 @@ b = {30, 40, 50, 60}
 print(a.union(b)) #start with one set then pass the other inside union method
 
 #Note: math operators return a new set and leave the originals untouched
-print(a) #this will print the same original data
+print(a) #this will print the same original data. we are not changing it.
 print(b) #same as this
 
 #You can use shortcut for union()
@@ -21,7 +21,7 @@ print(a.intersection(b))
 #shortcut for intersection()
 print(a & b)
 
-#difference () -returns items that appear in the first set but not in the second
+#difference () -returns items that appear in one set but not in the other
 a = {10, 20, 30, 40}
 b = {30, 40, 50, 60}
 print(a.difference(b)) #Returns items in A but not in B
