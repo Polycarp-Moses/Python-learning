@@ -1,8 +1,8 @@
-#LIST COMPREHENSIONS- a shortcut for a for loop that builds a new list
-#You can combine data transformation, loops and data filtering
-#Syntax: 1. What goes into the new list? 2. Where do the items come from? (for item in items) 3. Do i need a check?(if...)
+# #LIST COMPREHENSIONS- a one-line way to build a new list from an existing one
+# #You can combine data transformation, loops and data filtering
+# #Syntax: 1. What goes into the new list? 2. Where do the items come from? (for item in items) 3. Do i need a check?(if...)
 
-#Task: Normalize the domains into standard format
+# #Task: Normalize the domains into standard format
 domains = ['www.google.com', 'openai.com', 'localhost', 'www.DATAWITHBARAA.COM']
 cleaned = [
     domain.lower().replace('www.', '') #data transformation
@@ -11,10 +11,10 @@ cleaned = [
 ]
 print(cleaned)
 
-# How python runs the code above:
-# 1. for domain in domains: take each item one at a time
-# 2.  if '.' in domain: does it pass the check? 'localhost' has no dot, so it is thrown away
-# 3. domain.lower().replace('www.', ''): clean the items that passed and put the result in the new list
+# # How python runs the code above:
+# # 1. for domain in domains: take each item one at a time
+# # 2.  if '.' in domain: does it pass the check? 'localhost' has no dot, so it is thrown away
+# # 3. domain.lower().replace('www.', ''): clean the items that passed and put the result in the new list
 
 #Task: Make a list of the names that start with 'M' written in capital letters
 names = ['maria', 'kumar', 'max', 'anna']
