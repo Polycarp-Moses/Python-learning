@@ -53,3 +53,4 @@ def clean_name(name): #parameter
         cleaned = cleaned.lower()
     print("Cleaned:", cleaned)
 clean_name(" MoSeS")
+print("The rule is:", case_rule) # Global access: a global variable is available across the entire script
