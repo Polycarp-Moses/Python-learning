@@ -10,6 +10,7 @@ def clean_name(first_name, last_name, country):
     print(full_name, "From", country)
 clean_name(" MariA  ", "SMITH", "DE")
 clean_name("KAMAU", "MOSES", "KE")
+clean_name("moRGAN ", "sCOTT", "Tz")
 
 print()
 
