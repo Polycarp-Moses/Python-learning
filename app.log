@@ -1,0 +1,13 @@
+
+App Started
+User logged in
+App stopped
+App Started
+Invalid Email Received: mosesgmail.com
+App stopped
+App Started
+User logged in
+App stopped
+App Started
+Processed Email: {'username': 'kamau', 'domain': 'gmail.com'}
+App stopped
