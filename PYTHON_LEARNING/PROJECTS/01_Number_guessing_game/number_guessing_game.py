@@ -1,7 +1,7 @@
 # NUMBER GUESSING GAME
 import random
 
-def get_guess() -> int:
+def get_guess() -> int: 
     """
     Ask the player for a guess until a valid whole number is entered. 
     Returns:
