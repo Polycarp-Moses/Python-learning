@@ -30,6 +30,11 @@ def check_guess(guess: int, secret_number: int) -> str:
         return "correct"
 
 def play_game(max_attempts: int = 7) -> None:
+    """
+    Play one round of the number guessing game. 
+    Args: 
+    max_attempts(int): How many guesses the player gets. 
+    """
     
     secret_number = random.randint(1,100)
     attempts = 0
