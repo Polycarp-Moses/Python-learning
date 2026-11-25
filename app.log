@@ -11,3 +11,6 @@ App stopped
 App Started
 Processed Email: {'username': 'kamau', 'domain': 'gmail.com'}
 App stopped
+App Started
+User logged in
+App stopped
