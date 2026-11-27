@@ -3,7 +3,7 @@
 ## Objects and Classes
 # Object = A "bundle" of related attributes (variables) and methods (functions). 
 # attributes = what objects have; methods/functions = what objects can do.  
-# e.g phone attributes = version_num = 13; is_on = True; price = kes 13,000 
+# e.g phone attributes => version_num = 13; is_on = True; price = kes 13,000 
 # Objects also have the capablity to do things; they have methods/functions that belong to an object. 
 # A method is a function that belongs within an object. 
 # Methods are actions that objects can perform
